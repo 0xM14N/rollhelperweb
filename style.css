@@ -1,0 +1,100 @@
+body {
+    background-color: #1D2126 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    background-color: azure;
+}
+.bold {
+    font-weight: bold;
+}
+
+.settings-text-bold {
+    color: #c7c5c5;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.settings-text{
+    color: #c7c5c5;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: bold;
+    font-weight: normal;
+}
+span {
+    color: yellow;
+}
+
+.setting-desc{
+    color: #c7c5c5;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+footer {
+    margin-top: 20px;
+}
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+h1 {
+    color: #c7c5c5;
+}
+
+.com-notes-heading {
+    font-weight: unset;
+    font-family: Consolas;
+}
+
+li{
+    color: azure;
+}
+
+.logoImg {
+    margin: 20px
+}
+
+.red {
+    color: red;
+}
+.white {
+    color: white;
+}
+
+.notes-text {
+    font-weight:lighter;
+    font-size: 19px;
+    font-family: Consolas;
+}
+.erorrmsg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: azure;
+    font-size: 30px;
+}
+
+.custom {
+    margin-top: auto;
+    margin-bottom: auto;
+}
